@@ -1,0 +1,23 @@
+@import url(./cabecalho/cabecalho.css);
+@import url(./banner/banner.css);
+@import url(./grupos/grupos.css);
+@import url(./partidas/partidas.css);
+@import url(./rodape/rodape.css);
+:root {
+    --vermelho: #8D1B3D;
+    --preto: #1F1E1E;
+    --cinza: #3C3939;
+    --branco: #FFFFFF;
+    --branco-claro: #F4F4F4;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

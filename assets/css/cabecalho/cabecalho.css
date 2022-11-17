@@ -1,0 +1,86 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1220px;
+    margin: 0 auto;
+
+    padding: 1.5rem 2rem;
+}
+
+.cabecalho__logo {
+    background: url(../../img/logo-fifa.svg) center / cover no-repeat;
+    display: inline-block;
+    width: 98px;
+    height: 24px;
+}
+
+.menu__lista {
+    display: flex;
+    align-items: center;
+    column-gap: 56px;
+}
+
+.menu__link {
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: var(--preto);
+    border-bottom: 2px solid var(--preto);
+    transition: .1s ease-in-out;
+}
+
+.ativo {
+    color: var(--preto);
+    border-bottom: 2px solid var(--preto);
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho__logo {
+        width: 80px;
+        height: 19px;
+    }
+    .menu__lista {
+        column-gap: 10px;
+    }
+    .menu__link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cabecalho {
+        padding: 1.5rem 1rem;
+    }
+    .cabecalho__logo {
+        width: 70px;
+        height: 16px;
+    }
+    .menu__lista {
+        column-gap: 8px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .cabecalho__logo {
+        width: 70px;
+        height: 16px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .cabecalho__logo {
+        width: 60px;
+        height: 14px;
+    }
+    .menu__link {
+        font-size: 14px;
+    }
+}
