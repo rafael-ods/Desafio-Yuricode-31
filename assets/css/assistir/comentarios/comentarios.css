@@ -62,9 +62,4 @@
     .comentarios__descricao {
         font-size: 18px;
     }
-    .partidas__assistir{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }

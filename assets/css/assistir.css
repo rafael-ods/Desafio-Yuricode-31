@@ -2,6 +2,7 @@
 @import url(./assistir/aovivo/aovivo.css);
 @import url(./home/partidas/partidas.css);
 @import url(./assistir/comentarios/comentarios.css);
+@import url(./assistir/partidasAssistir/partidadasAssistir.css);
 @import url(./home/rodape/rodape.css);
 :root {
     --vermelho: #8D1B3D;
