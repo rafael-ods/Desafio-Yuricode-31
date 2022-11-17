@@ -1,0 +1,23 @@
+@import url(./home/cabecalho/cabecalho.css);
+@import url(./assistir/aovivo/aovivo.css);
+@import url(./home/partidas/partidas.css);
+@import url(./assistir/comentarios/comentarios.css);
+@import url(./home/rodape/rodape.css);
+:root {
+    --vermelho: #8D1B3D;
+    --preto: #1F1E1E;
+    --cinza: #3C3939;
+    --branco: #FFFFFF;
+    --branco-claro: #F4F4F4;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}

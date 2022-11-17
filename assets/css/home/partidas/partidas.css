@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 320px) {
     .partidas__titulo {
-        font-size: 25px;
+        font-size: 24px;
     }
     
     .partidas__btn {
@@ -103,5 +103,8 @@
     }
     .data , .hora {
         margin-left: 0px;
+    }
+    .partidas__btn {
+        padding: 1rem 2rem;
     }
 }

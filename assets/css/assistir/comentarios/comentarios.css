@@ -1,0 +1,65 @@
+.comentarios__titulo {
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 56px 0 16px 0;
+}
+
+.comentarios__descricao {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 48px;
+}
+
+.descricao--destaque {
+    color: var(--vermelho);
+}
+
+.comentarios__card {
+    border: 2px solid #D7D7D7;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.card__pessoa {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #D7D7D7;
+}
+
+.card__pessoa__img {
+    padding: 12px;
+}
+
+.card__pessoa__nome {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.comentarios__card__descricao {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px;
+}
+
+.cometarios__card__span {
+    color: var(--vermelho);
+    padding: 12px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .comentarios__titulo {
+        font-size: 27px;
+    }
+    .comentarios__descricao {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,65 @@
+.aovivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aovivo__container {
+    display: flex;
+    align-items: center;
+    margin: 100px 0 48px;
+}
+
+.aovivo__bg {
+    background-color: #FF0000;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.aovivo__titulo {
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.partidas__card {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.card__placar {
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.aovivo__video {
+    width: 100%;
+    height: 600px;
+}
+
+@media screen and (max-width: 500px) {
+    .aovivo__container {
+        margin: 50px 0 48px;
+    }
+    .aovivo__titulo {
+        font-size: 25px;
+    }
+    .aovivo__bg {
+        width: 8px;
+        height: 8px;
+    }
+    .card__placar {
+        font-size: 20px;
+    }
+    .aovivo__video {
+        height: 315px;
+    }
+}

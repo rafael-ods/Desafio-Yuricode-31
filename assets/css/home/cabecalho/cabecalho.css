@@ -5,12 +5,12 @@
 
     max-width: 1220px;
     margin: 0 auto;
-
+    
     padding: 1.5rem 2rem;
 }
 
 .cabecalho__logo {
-    background: url(../../img/logo-fifa.svg) center / cover no-repeat;
+    background: url(../../../img/logo-fifa.svg) center / cover no-repeat;
     display: inline-block;
     width: 98px;
     height: 24px;
@@ -33,7 +33,7 @@
 .menu__link:hover {
     color: var(--preto);
     border-bottom: 2px solid var(--preto);
-    transition: .1s ease-in-out;
+    /* transition: .1s ease-in-out; */
 }
 
 .ativo {

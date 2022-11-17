@@ -48,7 +48,7 @@
 }
 
 .grupo__setas {
-    background: url(../../img/setas.svg) center / cover no-repeat;
+    background: url(../../../img/setas.svg) center / cover no-repeat;
     display: inline-block;
     width: 116px;
     height: 50px;

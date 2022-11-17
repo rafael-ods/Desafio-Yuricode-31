@@ -34,7 +34,7 @@
 }
 
 .rodape__logo {
-    background: url(../../img/logorodape.svg)  center / cover no-repeat;
+    background: url(../../../img/logorodape.svg)  center / cover no-repeat;
     display: block;
     width: 228px;
     height: 75px;

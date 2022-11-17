@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Assistir</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/font/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/assistir.css">
+  <script src='main.js'></script>
+</head>
+
+<body>
+  <a name="Inicio"></a>
+  <header class="cabecalho">
+    <a class="cabecalho__logo" href="index.html"></a>
+    <nav class="menu">
+      <ul class="menu__lista">
+        <li class="menu__item"><a href="index.html" class="menu__link">Início</a></li>
+        <li class="menu__item"><a href="#Grupos" class="menu__link">Grupos</a></li>
+        <li class="menu__item"><a href="#Partidas" class="menu__link">Partidas</a></li>
+        <li class="menu__item"><a href="assistir.html" class="menu__link ativo">Assistir</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <a name="Grupos"></a>
+    <section class="aovivo">
+      <div class="aovivo__container">
+        <span class="aovivo__bg"></span>
+        <h2 class="aovivo__titulo">Ao vivo</h2>
+      </div>
+      <div class="partidas__card">
+        <figure class="card__time">
+          <img class="card__imagem" src="assets/img/Qatar.svg" alt="">
+          <figcaption class="card__descricao">Qatar</figcaption>
+        </figure>
+        <div class="card__data-hora">
+          <span class="card__placar">1 X 2</span>
+        </div>
+        <figure class="card__time">
+          <figcaption class="card__descricao">Equador</figcaption>
+          <img class="card__imagem" src="assets/img/Ecuador.svg" alt="">
+        </figure>
+      </div>
+      <iframe class="aovivo__video" width="560" height="315" src="https://www.youtube.com/embed/oh6x93txaWs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+    <section class="comentarios">
+      <h2 class="comentarios__titulo">Comentários</h2>
+      <p class="comentarios__descricao">Adicione a <b class="descricao--destaque">#brasil</b> nas redes sociais para aparecer aqui</p>
+      <div class="comentarios__card">
+        <div class="card__pessoa">
+          <img class="card__pessoa__img" src="assets/img/unsplash_iFgRcqHznqg.svg" alt="">
+          <p class="card__pessoa__nome">Ronaldo Silva</p>
+        </div>
+        <p class="comentarios__card__descricao">O pai ta on, dale ney neles.</p>
+        <span class="cometarios__card__span">#brasil</span>
+      </div>
+      <div class="comentarios__card">
+        <div class="card__pessoa">
+          <img class="card__pessoa__img" src="assets/img/unsplash_mEZ3PoFGs_k.svg" alt="">
+          <p class="card__pessoa__nome">Fernanda Santos</p>
+        </div>
+        <p class="comentarios__card__descricao">Vamos Brasil!!!</p>
+        <span class="cometarios__card__span">#brasil</span>
+      </div>
+    </section>
+    <a name="Partidas"></a>
+    <section class="partidas container">
+      <h2 class="partidas__titulo">Próximos Jogos</h2>
+      <div class="partidas__card">
+        <figure class="card__time">
+          <img class="card__imagem" src="assets/img/Vector.svg" alt="">
+          <figcaption class="card__descricao">Inglaterra</figcaption>
+        </figure>
+        <div class="card__data-hora">
+          <span class="data">21/11</span>
+          <span class="hora">10:00</span>
+        </div>
+        <figure class="card__time">
+          <figcaption class="card__descricao">Irã</figcaption>
+          <img class="card__imagem" src="assets/img/Iran.svg" alt="">
+        </figure>
+      </div>
+      <a class="partidas__btn" href="">Ver todos os jogos</a>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="rodape__container container">
+      <ul class="rodape__lista">
+        <li class="rodape__lista__titulo">Redes Sociais</li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="https://www.facebook.com/"
+            target="_blank">Facebook</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="https://www.instagram.com/"
+            target="_blank">Instagram</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="https://twitter.com/"
+            target="_blank">Twitter</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="https://www.youtube.com/"
+            target="_blank">Youtube</a></li>
+      </ul>
+      <ul class="rodape__lista">
+        <li class="rodape__lista__titulo">Legais</li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Sobre</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Licença</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Contato</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Política de privacidade</a></li>
+      </ul>
+      <ul class="rodape__lista">
+        <li class="rodape__lista__titulo">Fifa</li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Serviços</a></li>
+        <li class="rodape__lista__item"><a class="rodape__lista__link" href="">Patrocinadores</a></li>
+      </ul>
+      <div class="rodape__container__links">
+        <a class="rodape__logo" href="#Inicio"></a>
+        <a class="rodape__autor" href="https://www.linkedin.com/in/rafaelods/" target="_blank">Desenvolvido por Rafael
+          Oliveira</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>
